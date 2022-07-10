@@ -235,7 +235,8 @@ class MainActivity : ComponentActivity() {
             Text(
                 text = days[index].take(1),
                 color = color,
-                textAlign = TextAlign.Center
+                textAlign = TextAlign.Center,
+                fontSize = 10.sp
             )
         }
     }
